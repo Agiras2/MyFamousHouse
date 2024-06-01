@@ -1,0 +1,49 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  
+  <!-- Configuración del filtro -->
+  <filter>
+    <filter-name>SessionFilter</filter-name>
+    <filter-class>control.servlet.SessionFilter</filter-class>
+  </filter>
+  
+  <!-- Mapeo del filtro -->
+  <filter-mapping>
+    <filter-name>SessionFilter</filter-name>
+    <url-pattern>/resources/home.jsp</url-pattern>
+    <url-pattern>/resources/listing.jsp</url-pattern>
+    <url-pattern>/resources/post_property.jsp</url-pattern>
+    <url-pattern>/resources/my_properties.jsp</url-pattern>
+    <url-pattern>/resources/UpdateProperty.jsp</url-pattern>
+    <url-pattern>/resources/view_property.jsp</url-pattern>
+    <url-pattern>/ViewProperty</url-pattern>
+    <url-pattern>/resources/contactlog.jsp</url-pattern>
+    <url-pattern>/resources/aboutlog.jsp</url-pattern>
+    <url-pattern>/resources/search.jsp</url-pattern>
+    <url-pattern>/resources/bank.jsp</url-pattern>
+    <url-pattern>/resources/error_page.jsp</url-pattern>
+  </filter-mapping>
+
+  <filter>
+    <filter-name>MainPageFilter</filter-name>
+    <filter-class>control.servlet.MainPageFilter</filter-class>
+  </filter>
+  
+  <filter-mapping>
+    <filter-name>MainPageFilter</filter-name>
+    <url-pattern>/resources/home.jsp</url-pattern>
+    <url-pattern>/resources/listings.jsp</url-pattern>
+  </filter-mapping>
+  
+  <welcome-file-list>
+    <welcome-file>portal</welcome-file>
+  </welcome-file-list>
+
+  <session-config>
+    <session-timeout>15</session-timeout>
+  </session-config>
+</web-app>
