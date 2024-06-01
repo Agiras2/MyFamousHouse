@@ -6,82 +6,82 @@ Este proyecto es una aplicación web para una inmobiliaria que permite a los usu
 
 ## Estructura del Proyecto
 
-realstate:
-       src:
-             main:
-                      java:
-                            control:
-                                     controller:
-                                                BankAccountsController.java
-                                                CustomersController.java
-                                                PropertyController.java
-                                                TransactionsController.java
-                                                WebAccountController.java
-                                     dao:
-                                                BankAccountsDao.java
-                                                CustomersDao.java
-                                                PropertyDao.java
-                                                TransactionsDao.java
-                                                WebAccountDao
-                                     Servlet:
-                                                AboutPropertyServlet.java
-                                                DeletePropertyServlet.java
-                                                HomeServlet.java
-                                                ListingServlet.java
-                                                LoginServlet.java
-                                                LogoutServlet.java
-                                                MainPageFilter.java
-                                                MyPropertiesServlet.java
-                                                PayPropertyServlet.java
-                                                PostPropertyServlet.java
-                                                PreparePayPropertyServlet.java
-                                                SearchServlet.java
-                                                SessionFilter.java
-                                                UpdatePropertyServlet.java
-                                                ViewPropertyServlet.java
-                            model:
-                                     entity:
-                                                BankAccounts.java
-                                                Customers.java
-                                                Property.java
-                                                Transactions.java
-                                                WebAccount.java
-                                     util:
-                                                DatabaseUtil.java
-                      webapp:
-                            resources:
-                                     css:
-                                                style.css
-                                                stylebanck.css
-                                     images:
-                                     js:
-                                                script.js
-                                     about.jsp
-                                     aboutlog.jsp
-                                     bank.jsp
-                                     contact.jsp
-                                     contactlog.jsp
-                                     error_page.jsp
-                                     home.jsp
-                                     listings.jsp
-                                     login.jsp
-                                     my_properties.jsp
-                                     post_property.jsp
-                                     search.jsp
-                                     UpdateProperty.jsp
-                                     view_property.jsp
-                            WEB-INF:
-                                     web.xml
-                            index.jsp
-             test:
-                     BankAccountsControllerTest.java
-                     CustomersControllerTest.java
-                     PropertyControllerTest.java
-                     TransactionsControllerTest.java
-                     WebAccountControllerTest.java
-       target:
-       pom.xml
-
+realstate
+│
+├── src
+│ ├── main
+│ │ ├── java
+│ │ │ ├── control
+│ │ │ │ ├── controller
+│ │ │ │ │ ├── BankAccountsController.java
+│ │ │ │ │ ├── CustomersController.java
+│ │ │ │ │ ├── PropertyController.java
+│ │ │ │ │ ├── TransactionsController.java
+│ │ │ │ │ ├── WebAccountController.java
+│ │ │ │ ├── dao
+│ │ │ │ │ ├── BankAccountsDao.java
+│ │ │ │ │ ├── CustomersDao.java
+│ │ │ │ │ ├── PropertyDao.java
+│ │ │ │ │ ├── TransactionsDao.java
+│ │ │ │ │ ├── WebAccountDao.java
+│ │ │ │ ├── Servlet
+│ │ │ │ │ ├── AboutPropertyServlet.java
+│ │ │ │ │ ├── DeletePropertyServlet.java
+│ │ │ │ │ ├── HomeServlet.java
+│ │ │ │ │ ├── ListingServlet.java
+│ │ │ │ │ ├── LoginServlet.java
+│ │ │ │ │ ├── LogoutServlet.java
+│ │ │ │ │ ├── MainPageFilter.java
+│ │ │ │ │ ├── MyPropertiesServlet.java
+│ │ │ │ │ ├── PayPropertyServlet.java
+│ │ │ │ │ ├── PostPropertyServlet.java
+│ │ │ │ │ ├── PreparePayPropertyServlet.java
+│ │ │ │ │ ├── SearchServlet.java
+│ │ │ │ │ ├── SessionFilter.java
+│ │ │ │ │ ├── UpdatePropertyServlet.java
+│ │ │ │ │ ├── ViewPropertyServlet.java
+│ │ │ ├── model
+│ │ │ │ ├── entity
+│ │ │ │ │ ├── BankAccounts.java
+│ │ │ │ │ ├── Customers.java
+│ │ │ │ │ ├── Property.java
+│ │ │ │ │ ├── Transactions.java
+│ │ │ │ │ ├── WebAccount.java
+│ │ │ │ ├── util
+│ │ │ │ │ ├── DatabaseUtil.java
+│ │ ├── webapp
+│ │ │ ├── resources
+│ │ │ │ ├── css
+│ │ │ │ │ ├── style.css
+│ │ │ │ │ ├── stylebank.css
+│ │ │ │ ├── images
+│ │ │ │ ├── js
+│ │ │ │ │ ├── script.js
+│ │ │ │ ├── about.jsp
+│ │ │ │ ├── aboutlog.jsp
+│ │ │ │ ├── bank.jsp
+│ │ │ │ ├── contact.jsp
+│ │ │ │ ├── contactlog.jsp
+│ │ │ │ ├── error_page.jsp
+│ │ │ │ ├── home.jsp
+│ │ │ │ ├── listings.jsp
+│ │ │ │ ├── login.jsp
+│ │ │ │ ├── my_properties.jsp
+│ │ │ │ ├── post_property.jsp
+│ │ │ │ ├── search.jsp
+│ │ │ │ ├── UpdateProperty.jsp
+│ │ │ │ ├── view_property.jsp
+│ │ │ ├── WEB-INF
+│ │ │ │ ├── web.xml
+│ │ │ ├── index.jsp
+│ ├── test
+│ │ ├── BankAccountsControllerTest.java
+│ │ ├── CustomersControllerTest.java
+│ │ ├── PropertyControllerTest.java
+│ │ ├── TransactionsControllerTest.java
+│ │ ├── WebAccountControllerTest.java
+├── target
+├── pom.xml
 
 
 ## Requisitos
