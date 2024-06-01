@@ -32,13 +32,13 @@ Este proyecto es una aplicación web para una inmobiliaria que permite a los usu
  - Archivo inlcuido en el repositorio
 
 
-4. Configurar el archivo src/main/java/model/util/DatabaseUtil.java con los detalles de conexión a la base de datos:
+##4. Configurar el archivo src/main/java/model/util/DatabaseUtil.java con los detalles de conexión a la base de datos:
 
-   private static final String URL = "jdbc:mariadb://localhost:3307/inmobiliaria";
-   private static final String USER = "root";
-   private static final String PASSWORD = "root";
+   - private static final String URL = "jdbc:mariadb://localhost:3307/inmobiliaria";
+   - private static final String USER = "root";
+   - private static final String PASSWORD = "root";
 
-5. Compilar y desplegar el proyecto en Tomcat:
+##5. Compilar y desplegar el proyecto en Tomcat:
 
    mvn clean install
    
