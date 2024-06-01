@@ -57,3 +57,7 @@ La aplicación proporciona las siguientes funcionalidades:
 - Gestión de Propiedades: Añadir, actualizar y eliminar propiedades.
 - Búsqueda de Propiedades: Buscar propiedades disponibles.
 - Transacciones: Comprar propiedades y registrar transacciones.
+
+
+Enlace al diagrama de clases:
+https://drive.google.com/file/d/1FVqyf1BeMJ92P1smNodHiyPsnyZziAHM/view?usp=drive_link
